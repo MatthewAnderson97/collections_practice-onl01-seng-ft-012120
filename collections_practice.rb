@@ -18,7 +18,14 @@ def swap_elements(array)
 end
 
 def reverse(array)
-
+reverse=[]
+i = -1
+   array.each do
+      reverse << array[i]
+      i -= 1
+    end
+reverse
+end
 
 def kesha_maker(array)
   array.each do |item|
