@@ -30,3 +30,5 @@ def find_a(array)
   array.select{|item| item[0] == "a"}
 end
 
+def sum_array
+  i = 0
